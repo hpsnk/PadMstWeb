@@ -1,0 +1,36 @@
+.mask {
+    top: 0px;
+    filter: alpha(opacity=60);
+    z-index: 1002;
+    left: 0px;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+}
+
+.img-condition {
+    flex-flow: row nowrap;
+    height: 30px;
+    width: 30px;
+}
+
+.icon-type {
+    flex-flow: row nowrap;
+    height: 30px;
+    width: 30px;
+}
+
+.icon-monster {
+    flex-flow: row nowrap;
+    height: 60px;
+    width: 60px;
+}
+
+.icon-monster.empty {
+	background-color: rgb(242 242 242);
+}
+
+.icon-awakenSkill {
+    flex-flow: row nowrap;
+    height: 30px;
+    width: 30px;
+}
